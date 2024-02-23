@@ -7,7 +7,7 @@ on:
 
 jobs:
 
-analysis :
+Analysis :
 runs-on: ubuntu-latest
 
     steps:
