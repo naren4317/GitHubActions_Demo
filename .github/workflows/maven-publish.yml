@@ -6,12 +6,12 @@ on:
  push: main
 
 jobs:
+  Analysis :
+   
+     runs-on: ubuntu-latest
 
-Analysis :
-runs-on: ubuntu-latest
-
-    steps:
-      - name: Analyze with SonarCloud
+       steps:
+        - name: Analyze with SonarCloud
 
        
         uses: SonarSource/sonarcloud-github-action@v2.1.1
