@@ -26,6 +26,7 @@ runs-on: ubuntu-latest
             -Dsonar.organization=naren4317
            
   build:
+  needs: Analysis
 
     runs-on: ubuntu-latest
     permissions:
