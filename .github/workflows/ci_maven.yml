@@ -9,7 +9,7 @@
 name: GitHub Actions Demo - this batch ( Java CI with Maven)
 
 on:
-  pull_request 
+  push
   
   
   
